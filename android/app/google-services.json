@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "6293422752",
+    "project_id": "travelaiprojects",
+    "storage_bucket": "travelaiprojects.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6293422752:android:4828221c812b954203ffc5",
+        "android_client_info": {
+          "package_name": "com.travelai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD35V0ANdK1Au5BqJVcSVI0lz59Hdajlmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

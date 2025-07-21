@@ -5,9 +5,11 @@ import {
   StyleSheet,
   Dimensions,
   ImageBackground,
+  Button
 } from 'react-native';
 import VisaCard from '../../components/visaCard';
 import TravelPlanCard from '../../components/travelPlanCard';
+import {notification} from '../notification'
 
 const { width } = Dimensions.get('window');
 
@@ -62,12 +64,17 @@ export default function Start() {
         <Text style={styles.sectionTitle}>🟢 Açık Randevu</Text>
         <VisaCard
           center={mockVisa[0].center}
-          status={mockVisa[0].status}
           countryCode={mockVisa[0].country_code}
           missionCode={mockVisa[0].mission_code}
           visaType={mockVisa[0].visa_type}
           visaCategory={mockVisa[0].visa_category}
         />
+        <Button
+  onPress={notification}
+  title="Learn More"
+  color="#841584"
+  accessibilityLabel="Learn more about this purple button"
+/>
       </View>
 
       {/* Tatil Kartı */}
